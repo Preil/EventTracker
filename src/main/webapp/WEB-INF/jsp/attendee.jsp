@@ -21,13 +21,17 @@
     </style>
 </head>
 <body>
-<form:form commandName="event">
+<form:form commandName="attendee">
     <form:errors path="*" cssClass="errorblock" element="div"/>
-    <label for="textInput1">Enter Minutes</label>
+    <label for="textInput1">Enter name</label>
     <form:input path="name" cssErrorClass="error"/>
     <form:errors path="name" cssClass="error"/>
     <br>
-    <input type="submit" class="btn" value="Enter event"/>
+    <label for="textInput2">Enter email</label>
+    <form:input path="emailAddress" cssErrorClass="error"/>
+    <form:errors path="emailAddress" cssClass="error"/>
+    <br>
+    <input type="submit" class="btn" value="Enter attendee"/>
 </form:form>
 
 </body>
