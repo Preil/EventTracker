@@ -22,15 +22,12 @@
 <body>
 <form:form commandName="event">
     <form:errors path="*" cssClass="errorblock" element="div"/>
-    <label:form for="textInput1">Enter Minutes</label:form>
+    <label for="textInput1">Enter Minutes</label>
     <form:input path="name" cssErrorClass="error"/>
     <form:errors path="name" cssClass="error"/>
     <br>
     <input type="submit" class="btn" value="Enter event"/>
-
-
 </form:form>
-
 
 </body>
 </html>

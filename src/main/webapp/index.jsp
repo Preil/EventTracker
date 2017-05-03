@@ -8,9 +8,14 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
   <head>
-    <title>$Title$</title>
+    <title>Event tracker</title>
   </head>
   <body>
-  $END$
+  <h2>Hello ${event.name}!</h2>
+  <p>
+    <a href="/event">Add event>></a><br>
+    <a href="/attendee">Add attendee>></a>
+  </p>
+
   </body>
 </html>
