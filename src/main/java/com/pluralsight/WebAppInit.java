@@ -23,6 +23,7 @@ public class WebAppInit implements WebApplicationInitializer {
                 servletContext.addServlet("DispatcherServlet", new DispatcherServlet(context));
         dispatcher.setLoadOnStartup(1);
         dispatcher.addMapping("/");
+        dispatcher.addMapping("*.pdf");
     }
 
     private AnnotationConfigWebApplicationContext getContext() {
